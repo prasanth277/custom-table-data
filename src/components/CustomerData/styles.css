@@ -1,0 +1,36 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid #0000001c;
+  text-align: center;
+  padding: 12px;
+}
+
+thead {
+  background: #edf2fa;
+  color: #454746;
+  text-transform: uppercase;
+}
+
+tbody {
+  color: #454746;
+}
+
+td:empty:after {
+  content: "\00a0"; /* HTML entity of &nbsp; */
+}
+
+.container {
+  width: 780px;
+}

@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  position: absolute;
+  top: 0; /* basically this is 0 + vertical-height of the header; adjust to taste */
+  left: 0; /* assuming you want the div to stretch across the viewport */
+  right: 0;
+  bottom: 0; /* 0 + vertical-height of footer */
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
